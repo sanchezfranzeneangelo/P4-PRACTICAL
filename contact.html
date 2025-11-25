@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Bean & Brew for inquiries and orders." />
+  <title>Bean & Brew — Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <h1>Bean & Brew</h1>
+      <button id="navToggle3" aria-label="Toggle navigation">☰</button>
+      <nav id="mainNav3" class="hidden">
+        <a href="index.html">Home</a>
+        <a href="about.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Contact Us</h2>
+      <form id="contactForm" novalidate>
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" required minlength="3" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+        <p id="formFeedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Bean & Brew</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
