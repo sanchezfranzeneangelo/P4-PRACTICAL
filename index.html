@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bean & Brew - A cozy coffee shop showcasing menu, story, and contact." />
+  <title>Bean & Brew — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <h1>Bean & Brew</h1>
+      <button id="navToggle" aria-label="Toggle navigation">☰</button>
+      <nav id="mainNav" class="hidden">
+        <a href="index.html">Home</a>
+        <a href="about.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero">
+      <h2>Welcome to Bean & Brew</h2>
+      <p>Your neighborhood coffee shop — crafted with care.</p>
+      <p id="greeting"></p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h3 id="features-heading">What we offer</h3>
+      <ul>
+        <li>Specialty coffee and espresso</li>
+        <li>House-baked pastries</li>
+        <li>Cozy seating and free Wi-Fi</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Bean & Brew</p>
+      <p><small>Page last updated: <span id="lastUpdated"></span></small></p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
